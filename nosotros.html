@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store </title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<!--En este proyecto usaremos la metodologia de BEM -->
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace " href="index.html">Tienda</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Todo Sobre Nosotros</h1>
+        <div class="contenedorN">
+            <div class="contenedorN__Texto">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Sed magni quo quis accusantium delectus minus est dolore 
+                    mollitia voluptatem ipsam, commodi, optio facilis facere qui at 
+                    necessitatibus. Qui, debitis possimus. Lorem ipsum dolor sit 
+                    amet, consectetur adipisicing elit. Natus, voluptatum eius 
+                    dolorum, aliquid eaque nesciunt maiores minima temporibus magni,
+                    consequatur commodi molestiae dolore ad suscipit fuga assumenda 
+                    repudiandae? Quos, est.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae 
+                    distinctio non cumque suscipit amet, similique quos nisi vero? 
+                    Doloremque voluptate sit omnis, placeat suscipit cumque nesciunt 
+                    fugit quos sapiente vel.
+                </p>
+            </div>
+            <img src="img/nosotros.jpg" alt="imagen nosotros" class="contenedorN__Imagen" >
+        </div>
+    </main>
+
+    <section class="contenedor comprar">
+        <h2 class="comprar__titulo">¿Porqué comprar con nosotros?</h2>
+        
+        <div class="bloques">
+            <div class="bloque">
+                <img class="bloque__imagenes" src="img/icono_1.png" alt="Porque comprar">
+                <h3 class="bloque__titulo">El Mejor Precio</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                </p>
+            </div> <!--.bloque-->
+            <div class="bloque">
+                <img class="bloque__imagenes" src="img/icono_2.png" alt="Porque comprar">
+                <h3 class="bloque__titulo">Para DEVS</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae 
+                    distinctio non cumque suscipit amet, similique 
+                </p>
+            </div> <!--.bloque-->
+            <div class="bloque">
+                <img class="bloque__imagenes" src="img/icono_3.png" alt="Porque comprar">
+                <h3 class="bloque__titulo">Envío Gratis</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae 
+                    distinctio non cumque suscipit amet, similique quos nisi vero? 
+                    Doloremque voluptate sit
+                </p>
+            </div> <!--.bloque-->
+            <div class="bloque">
+                <img class="bloque__imagenes" src="img/icono_4.png" alt="Porque comprar">
+                <h3 class="bloque__titulo">La Mejor Calidad</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae 
+                    distinctio non cumque 
+                </p>
+            </div> <!--.bloque-->
+        </div><!--.bloques-->
+    </section>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos reservados 2022.</p>
+    </footer>
+</body>
+</html>
